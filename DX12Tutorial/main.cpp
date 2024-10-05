@@ -484,7 +484,7 @@ int main()
 	RegisterClassEx(&wc);
 
 	HWND windowHandle = CreateWindowEx(WS_EX_APPWINDOW, applicationName.c_str(), applicationName.c_str(),
-		WS_CLIPCHILDREN | WS_CLIPCHILDREN | WS_OVERLAPPED | WS_SIZEBOX,
+		WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_OVERLAPPED | WS_SYSMENU | WS_MINIMIZEBOX | WS_SIZEBOX,
 		(GetSystemMetrics(SM_CXSCREEN) - windowSize.x) / 2, (GetSystemMetrics(SM_CYSCREEN) - windowSize.y) / 2,
 		windowSize.x, windowSize.y,
 		nullptr, nullptr, moduleHandle, nullptr);
