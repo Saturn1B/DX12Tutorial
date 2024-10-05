@@ -1,0 +1,4 @@
+F:\GAMEDEV\DX12Tutorial\x64\Debug\D3D12\D3D12Core.dll
+F:\GAMEDEV\DX12Tutorial\x64\Debug\D3D12\D3D12Core.pdb
+F:\GAMEDEV\DX12Tutorial\x64\Debug\D3D12\D3D12SDKLayers.dll
+F:\GAMEDEV\DX12Tutorial\x64\Debug\D3D12\D3D12SDKLayers.pdb
